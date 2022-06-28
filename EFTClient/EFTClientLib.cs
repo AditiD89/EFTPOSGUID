@@ -33,7 +33,7 @@ namespace EFTClient
         //Function to POST Purchase Request to Server
         public async Task<string> CreatePurchaseAsync(Purchase purchase, Func<string, string> Callback)
         {
-            
+            ConnectToServer();
             string LocationURL = string.Empty;
             var response = await client.PostAsJsonAsync(
                 "Purchase", purchase);
