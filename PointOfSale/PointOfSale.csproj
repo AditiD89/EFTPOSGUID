@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EFTClient\EFTClient.csproj" />
-    <ProjectReference Include="..\LongPollingTestServer\EFTServer.csproj" />
   </ItemGroup>
 
 </Project>
