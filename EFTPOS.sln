@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFTServer", "LongPollingTestServer\EFTServer.csproj", "{80210ED4-E816-4DA7-9907-9E61EC1B8EFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFTClient", "EFTClient\EFTClient.csproj", "{8CCB9172-0CF0-4707-A56D-0F14A2488DBA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFTCLientLib", "LongPollingTestClient\EFTCLientLib.csproj", "{C6C9B22F-763B-4899-AEB1-FE842B705E62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointOfSale", "PointOfSale\PointOfSale.csproj", "{0375CA1D-D399-44E8-8D21-C619B1618116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFTClient", "EFTClient\EFTClient.csproj", "{8CCB9172-0CF0-4707-A56D-0F14A2488DBA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointOfSale", "PointOfSale\PointOfSale.csproj", "{0375CA1D-D399-44E8-8D21-C619B1618116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFTServerApp", "EFTServerApp\EFTServerApp.csproj", "{F4A383A4-6AA8-4424-B0CD-A989796F1E55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{80210ED4-E816-4DA7-9907-9E61EC1B8EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80210ED4-E816-4DA7-9907-9E61EC1B8EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80210ED4-E816-4DA7-9907-9E61EC1B8EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80210ED4-E816-4DA7-9907-9E61EC1B8EFA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C6C9B22F-763B-4899-AEB1-FE842B705E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6C9B22F-763B-4899-AEB1-FE842B705E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6C9B22F-763B-4899-AEB1-FE842B705E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6C9B22F-763B-4899-AEB1-FE842B705E62}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8CCB9172-0CF0-4707-A56D-0F14A2488DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8CCB9172-0CF0-4707-A56D-0F14A2488DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CCB9172-0CF0-4707-A56D-0F14A2488DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +23,10 @@ Global
 		{0375CA1D-D399-44E8-8D21-C619B1618116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0375CA1D-D399-44E8-8D21-C619B1618116}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0375CA1D-D399-44E8-8D21-C619B1618116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A383A4-6AA8-4424-B0CD-A989796F1E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A383A4-6AA8-4424-B0CD-A989796F1E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A383A4-6AA8-4424-B0CD-A989796F1E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A383A4-6AA8-4424-B0CD-A989796F1E55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

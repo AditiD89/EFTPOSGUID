@@ -3,10 +3,8 @@ using EFTServer;
 using Quartz;
 using Quartz.Impl;
 
-
-public class LongPollingTestServer
+public class EFTServerApp
 {
-
     static async Task Main(string[] args)
     {
          var builder = WebApplication.CreateBuilder(args);
@@ -44,10 +42,6 @@ public class LongPollingTestServer
         // Tell quartz to schedule the job using our trigger
         await scheduler.ScheduleJob(job, trigger);
         
-
-        // and last shut down the scheduler when you are ready to close your program
-        //await scheduler.Shutdown(); 
-
         Console.WriteLine("Press any key to close the application");
         Console.ReadKey();
                

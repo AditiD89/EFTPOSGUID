@@ -26,10 +26,7 @@ namespace EFTServer
             dbConnectionDetails = JsonConvert.DeserializeObject<DataBaseConnetionDetails>(File.ReadAllText(AppDomain.CurrentDomain.BaseDirectory + "DBConnection.json"));
 
             return "Data Source=" + dbConnectionDetails.DataSource + ";" + "Initial Catalog=" + dbConnectionDetails.InitialCatalogue + ";" + "Integrated Security = " + dbConnectionDetails.IntegratedSecurity + "; ";
-            //// To avoid storing the connection string in your code,
-            // you can retrieve it from a configuration file.
-            //return "Data Source=DESKTOP-HJULM31;Initial Catalog=AmpliFLILinkly;"
-            //    + "Integrated Security=true;";
+           
         }
         public async Task Execute(IJobExecutionContext context)
         {
