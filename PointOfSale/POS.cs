@@ -64,8 +64,6 @@ namespace PointOfSale
                         Amount = Amount,
                         Status = StatusDetails.RequestReceived
                     };
-
-                     Client.ConnectToServer();
                      PurchaseID = await Client.CreatePurchaseAsync(purchase, DisplayStatus);
                     
                 }
